@@ -30,14 +30,14 @@
             </a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link"><span
-                                class="fa fa-home fa-lg"></span>Home</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
                     <li class="nav-item"><a href="./aboutus.html" class="nav-link"><span
-                                class="fa fa-info fa-lg"></span>About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span>Menu</a>
+                                class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Menu</a>
                     </li>
                     <li class="nav-item"><a href="./contactus.html" class="nav-link"><span
-                                class="fa fa-address-card fa-lg"></span>Contact</a></li>
+                                class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -51,11 +51,16 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm row">
+                    <div class="col-12 col-sm-6">
+                        <img src="img/logo.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-12 col-sm-6 mt-3">
+                        <a href="#myModal" role="button" class="btn btn-warning btn-sm d-block">
+                            Reserve a table
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-sm align-self-center">
-                <img src="img/logo.png" class="img-fluid" alt="">
             </div>
         </div>
     </header>
@@ -66,27 +71,38 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-            </div>
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
-                <div class="media-body">
-                    <h2 class="mt-0">Uthappizza</h2>
-                    <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola
-                        olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">Uthappizza
+                            <span class="badge badge-danger">HOT</span>
+                            <span class="badge badge-pill badge-secondary">$4.99</span>
+                        </h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian
+                            pizza, topped with Cerignola
+                            olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-first  col-md-3">
+            <div class="col-12 col-sm-4 order-sm-first col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm order-sm-last col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers,
-                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
-                    $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
+                            different salads, six enticing appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                            just
+                            $19.99 per person</p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Alberto Somayya">
+                </div>
             </div>
         </div>
 
@@ -95,18 +111,73 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-               
-            </div>
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto Somayya">
-                <div class="media-body">
-                    <h2 class="mt-0">Alberto Somayya</h2>
-                    <h4>Executive Chef</h4>
-                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with
-                        whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
-                        experiences.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
+                        alt="Alberto Somayya">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International
+                            experience having worked closely with
+                            whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
+                            experiences.</p>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-8 mr-auto ml-auto mb-5" id="myModal">
+        <div class="card bg-light collapse" tabindex="-1">
+
+            <form>
+                <h3 class="card-header bg-warning text-white">Resever a table</h3>
+                <div class="card-body">
+                    <div class="form-group row">
+                        <label class="form-check-label col-sm-3">Number of Guests</label>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2">2</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3">3</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3">4</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3">5</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3">6</label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="form-check-label col-sm-3">Date and Time</label>
+                        <div>
+                            <input type="date" placeholder="Date">
+                            <input type="time" placeholder="Times">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <a href="#" class="btn btn-primary btn-lg">Reserve</a>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
